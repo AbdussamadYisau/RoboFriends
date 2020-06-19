@@ -6,10 +6,10 @@ import {robots} from './robots';
 class CardList extends Component {
     render() {
         const cardArray = robots.map((user, i) => {
-            return <Card id = {robots[i].id} name={robots[i].name} email={robots[i].email}/>
+            return <Card key = {i} id = {robots[i].id} name={robots[i].name} email={robots[i].email}/>
         });
         return(
-            <div className = "d-flex flex-wrap">
+            <div className = "d-flex flex-wrap justify-content-center">
                {cardArray}
             </div>
         );
