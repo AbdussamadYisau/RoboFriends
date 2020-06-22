@@ -58,5 +58,61 @@ export const robots = [
     name: 'Clementina DuBuque',
     username: 'Moriah.Stanton',
     email: 'Rey.Padberg@karina.biz'
+  },
+
+  {
+    id: 11,
+    name: 'Abdussamad Yisau',
+    username: 'A.Yisau',
+    email: 'SammieBoy@gmail.com'
+  },
+
+  {
+    id: 12,
+    name: 'Lanre Okemati',
+    username: 'L.Okemati',
+    email: 'lokemati@gmail.com'
+  },
+
+  {
+    id: 13,
+    name: 'Samuel Onyeukwu',
+    username: 'SammyBoy',
+    email: 'SammyBoy4L@gmail.com'
+  },
+
+  {
+    id: 14,
+    name: 'David Akana',
+    username: 'Daveeyd',
+    email: 'Daveeyd@gmail.com'
+  },
+
+  {
+    id: 15,
+    name: 'Lucas Chekwa',
+    username: 'Chekkie',
+    email: 'Lucstar@gmail.com'
+  }, 
+
+  {
+    id: 16,
+    name: 'Kenechi Ojukwu',
+    username: 'WhiteBoy',
+    email: 'DwiiightBoy@gmail.com'
+  }, 
+
+  {
+    id: 17,
+    name: 'Charles Iroegbu',
+    username: 'BlackStar',
+    email: 'Cgod@gmail.com'
+  },
+
+  {
+    id: 18,
+    name: 'Ikechukwu Imala',
+    username: 'BlackStar',
+    email: 'Ikethedon@gmail.com'
   }
 ];
