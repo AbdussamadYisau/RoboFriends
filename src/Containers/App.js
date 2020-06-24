@@ -25,16 +25,17 @@ class App extends Component {
     }
     
     render(){
-    
-        const filteredRobots = this.state.robots.filter(robots => {
-            return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+        const {robots, searchfield} = this.state;
+        
+        const filteredRobots = robots.filter(robot => {
+            return robot.name.toLowerCase().includes(searchfield.toLowerCase())
         })
-        if (this.state.robots.length === 0) {
-            return <h1>Loading</h1>
-        }
 
-        else {
-            return(
+        // Ternary operator, which handles when the page is loading and when it has loaded
+        return (!robots.length) ?
+        <h1>Loading</h1> :
+         
+            (
                 <div className="text-center">
                     <h1 style = {{marginTop:'10px'}}>RoboFriends</h1>
                     <SearchBox searchChange = {this.onSearchChange}/>
@@ -45,6 +46,6 @@ class App extends Component {
             );
         }
     }
-}
+
 
 export default App;
